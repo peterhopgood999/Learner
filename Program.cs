@@ -39,6 +39,12 @@ app.MapGet("/MrDobelina", () =>
 })
 .WithName("MrDobelina");
 
+app.MapGet("/JesusIsKing", () =>
+{
+    return "Jesus Is King....";
+})
+.WithName("JesusIsKing");
+
 
 app.Run();
 
