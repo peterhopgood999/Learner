@@ -32,5 +32,5 @@ jobs:
     - name: Deploy to Azure Web App
       uses: azure/webapps-deploy@v3
       with:
-        app-name: "Learner"  # Change this
+        app-name: "LearnerApi"  # Change this
         package: publish
