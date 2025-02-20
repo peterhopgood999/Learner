@@ -49,7 +49,7 @@ app.MapGet("/FilledWithSpirit1", () =>
 {
     return "Fill me with the spirit....";
 })
-.WithName("FilledWithSpirit1");
+.WithName("FilledWithSpirit11");
 
 app.Run();
 
