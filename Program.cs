@@ -45,11 +45,11 @@ app.MapGet("/JesusIsKing", () =>
 })
 .WithName("JesusIsKing");
 
-app.MapGet("/FilledWithSpirit1", () =>
+app.MapGet("/Filled", () =>
 {
     return "Fill me with the spirit....";
 })
-.WithName("FilledWithSpirit1");
+.WithName("Filled");
 
 app.Run();
 
